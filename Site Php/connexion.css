@@ -1,0 +1,59 @@
+body{
+	background-image: url("fond.png");
+}
+.connexion
+{
+	width:20%;
+	margin-left:38%;
+	margin-top:10%;
+}
+
+.inscription{
+	width:20%;
+	margin-left:37%;
+	margin-top:5%;
+}
+
+.connexion p,.connexion h1{
+	text-align:center;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+
+a{
+	text-decoration:none;
+}
