@@ -1,10 +1,10 @@
 <?php
-$user = "iman.mellouk";
-$pass = "imaniman";
+$user = "user";
+$pass = "pass";
 
 try
 {
-	$dbh = new PDO("pgsql:host=sqletud.u-pem.fr;dbname=iman.mellouk_db", $user,$pass);
+	$dbh = new PDO("pgsql:host=sqletud.u-pem.fr;dbname=dbname_db", $user,$pass);
 }
 catch(PDOException $e)
 {
